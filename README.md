@@ -16,21 +16,23 @@ Compiled list of useful tools and resources for each of phases derived from Micr
 This phase includes such practices as:
 - Core security training
 
-##### [OWASP Security by Design](https://www.owasp.org/index.php/Security_by_Design_Principles)
+#### Resources:
 
-Short read on the main principles for designing secure applications.
+- [OWASP Security by Design](https://www.owasp.org/index.php/Security_by_Design_Principles)
 
-##### [Basics of Web security](https://martinfowler.com/articles/web-security-basics.html) by Cade Cairns and Daniel Somerfield.
+  Short read on the main principles for designing secure applications.
 
-"Basic practices which every developer can and should be doing as a matter of course". 
+- [Basics of Web security](https://martinfowler.com/articles/web-security-basics.html) by Cade Cairns and Daniel Somerfield.
+  
+  "Basic practices which every developer can and should be doing as a matter of course". 
 
-##### [OWASP Top 10 - 2017](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
+- [OWASP Top 10 - 2017](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
 
-The list of most common threats for web applications.
+  The list of most common threats for web applications.
 
-##### [OWASP JuiceShop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)
+- [OWASP JuiceShop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)
 
-A vulnerable website with challenges of differnet difficulty.
+  A vulnerable website with challenges of differnet difficulty.
 
 ### Phase 2 - Requirements
 This phase includes such practices as:
@@ -38,29 +40,34 @@ This phase includes such practices as:
 - Creating quality gates/bars
 - Performing security and privacy risk assessments
 
-##### [OWASP Application Security Verification Standard Project](https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project)
+#### Resources:
+- [OWASP Application Security Verification Standard Project](https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project)
 
-Ready-made requirements for most development tasks.
+  Ready-made requirements for most development tasks.
 
-##### [OWASP Security Knowledge Framework](https://www.owasp.org/index.php/OWASP_Security_Knowledge_Framework)
+- [OWASP Security Knowledge Framework](https://www.owasp.org/index.php/OWASP_Security_Knowledge_Framework)
 
-Web application that incroporates OWASP ASVS and can help with requirements tracking and following throughout the application lifecyle.
+  Web application that incroporates OWASP ASVS and can help with requirements tracking and following throughout the application lifecyle.
 
 ### Phase 3 - Design
 This phase includes such practices as:
 - Establishing design requirements
 - Atack surface analysis reduction
 - Threat modeling
-##### [Threat modeling - Designing for security](https://www.wiley.com/en-us/Threat+Modeling%3A+Designing+for+Security-p-9781118809990) ($) - book by Adam Shostack
 
-A classic book on doing it right.
+#### Resources:
 
-##### [Microsoft Threat Modeling Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49168)
+- [Threat modeling - Designing for security](https://www.wiley.com/en-us/Threat+Modeling%3A+Designing+for+Security-p-9781118809990) ($) - book by Adam Shostack
 
-A classic tool for drawing the model and enumerating threats.
+  A classic book on doing it right.
 
-##### [Threat modeling toolkit](https://www.youtube.com/watch?v=KGy_KCRUGd4)
-A good talk on practical threat modeling by Jonathan Marcil, application security engineer at Twitch.
+- [Microsoft Threat Modeling Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49168)
+
+  A classic tool for drawing the model and enumerating threats.
+
+- [Threat modeling toolkit](https://www.youtube.com/watch?v=KGy_KCRUGd4)
+  
+  An awesome talk on practical threat modeling by Jonathan Marcil, application security engineer at Twitch.
 
 ### Phase 4 - Implementation
 This phase includes such practices as:
@@ -68,9 +75,11 @@ This phase includes such practices as:
 - Deprecating unsafe functions
 - Performing static analysis
 
-##### [Awesome-static-analysis](https://github.com/mre/awesome-static-analysis)
+#### Resources:
 
-Awesome list of tools for static analysis - it has it all.
+- [Awesome-static-analysis](https://github.com/mre/awesome-static-analysis)
+
+  Awesome list of tools for static analysis - it has it all.
 
 ### Phase 5 - Verification
 This phase includes such practices as:
@@ -78,11 +87,15 @@ This phase includes such practices as:
 - Fuzz testing
 - Attack surface review
 
-##### [Owasp ZAP]()
+#### Resources:
 
-##### [Awesome-Fuzzing](https://github.com/secfigo/Awesome-Fuzzing)
+- [Owasp ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project)
 
-Awesome list on everything regarding Fuzzing.
+  Zed Attack Proxy - a free tool for automated dynamic analysis and much more.
+
+- [Awesome-Fuzzing](https://github.com/secfigo/Awesome-Fuzzing)
+
+   Awesome list on everything regarding Fuzzing.
 
 
 ### Phase 6 - Release
@@ -91,6 +104,10 @@ This phase includes such practices as:
 - Conducting final security review
 - Certifying release and archive
 
+#### Resources:
+
 ### Phase 7 - Response
 This phase includes such practices as:
 - Executing incident response plan
+
+#### Resources:
